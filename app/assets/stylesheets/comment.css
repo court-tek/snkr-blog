@@ -1,0 +1,22 @@
+.comment__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 220px);
+}
+
+.comment__heading {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.comment__count {
+    display: flex;
+    align-items:center;
+    padding-bottom: 6px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+.comment__input {
+    padding-left: 50px;
+}

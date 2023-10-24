@@ -1,0 +1,25 @@
+.comment-body__grid {
+    display: flex;
+}
+
+.comment-body__image {
+    padding: 0 12px 0 0;
+}
+
+.comment-body__name {
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.comment-body__time {
+    font-weight: 400;
+    font-size: .7rem;
+}
+
+.comment-body__link {
+    text-transform: capitalize;
+}
+
+.comment-body__link:nth-child(2) {
+    margin: 0 10px;
+}
